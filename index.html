@@ -11,8 +11,9 @@
 </head>
 
 <body style=" background-color: rgba(255, 196, 69, 0.8);">
+
     <!-- Forma de buscar el contenido -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary"> Menu
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top"> Menu
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,25 +25,25 @@
                     <a class="nav-link" href="#arquitectura">Arquitectura</a>
                     <a class="nav-link" href="#fundador">Fundador</a>
                     <a class="nav-link" href="#actividades">Actividades</a>
+                    <a class="nav-link" href="#galeria">Galeria</a>
                     <a class="nav-link" href="#mas-informacion">Mas informacion</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <div class="container "><!-- inicio del codigo y contenedor-->
+    <div class="container"><!-- inicio del codigo y contenedor-->
 
 
-            <div class="header col-12" style="text-align: center;">
+            <div class="header" style="text-align: center; align-items: center;">
                 <h1 class="">La Catedral Metropolitana de Chihuahua</h1>
-                <img src="Imagenes/catedral_chihuahua.webp" alt="Catedral Metropolitana de Chihuahua" aling="left"
-                    class="img-fluid rounded-pill" width="260" height="260">
+                <img src="Imagenes/catedral_chihuahua.webp" alt="Catedral Metropolitana de Chihuahua"
+                    class="img-fluid rounded-pill" width="360" height="360">
             </div>
 
-            <div class="container">
-                <section class="border border-dark mt-4 row " id="inicio">
+                <section class="border border-dark mt-4 row " style="text-align: center;" id="inicio">
                     <h2>Catedral Metropolitana de Chihuahua</h2>
-                    <p class="text-center text-md-start px-3">La Catedral Metropolitana de Chihuahua, conocida
+                    <p class="text-center px-3">La Catedral Metropolitana de Chihuahua, conocida
                         comúnmente como la Catedral de Chihuahua,
                         es uno de los sitios más emblemáticos y representativos de la ciudad.
                         Su construcción comenzó en 1725 y se completó en 1826, siendo un ejemplo extraordinario de
@@ -59,9 +60,9 @@
                         arzobispo al mismo Antonio Guízar Valencia.</p>
                 </section>
 
-                <section class="border border-dark mt-4 row" id="fundador">
+                <section class="border border-dark mt-4 row" style="text-align: center;" id="fundador">
                     <h2>Fundador</h2>
-                    <p class="text-center text-md-start px-3">La fundación de la Catedral Metropolitana de Chihuahua se
+                    <p class="text-center px-3">La fundación de la Catedral Metropolitana de Chihuahua se
                         atribuye al obispo de Durango, Benito Crespo y Monroy, quien colocó la primera piedra el 21 de
                         junio de 1725.
                         Aunque el proyecto inicial fue concebido por él, la construcción del templo, originalmente
@@ -69,11 +70,14 @@
                         arquitectos y artesanos, incluyendo al alarife José de la Cruz, quien dirigió las obras hasta
                         1734.
                         La catedral no se completó hasta 1826, tras más de un siglo de trabajos intermitentes.</p>
+                        <img src="Imagenes/A1_1211.webp" alt="Interior de la Catedral Metropolitana de Chihuahua"
+                        class="img-fluid" width="160" height="160">
                 </section>
 
-                <section class="border border-dark mt-4 row" id="arquitectura">
+                <section class="border border-dark mt-4 row" style="text-align: center;" id="arquitectura">
                     <h2>Arquitectura</h2>
-                    <p class="text-center text-md-start px-3">La Catedral de Chihuahua es un magnífico ejemplo de la
+                    <div style="align-items: flex-start;">
+                    <p class="text-center px-3">La Catedral de Chihuahua es un magnífico ejemplo de la
                         arquitectura barroca del siglo XVIII.
                         Construida principalmente entre 1725 y 1826, esta edificación se distingue por su magnífica
                         fachada ornamentada que refleja las influencias estilísticas del barroco novohispano.
@@ -82,26 +86,25 @@
                         Estos elementos verticales brindan un carácter majestuoso a la estructura, visibilizándola desde
                         distintos puntos de la ciudad.
                         Su estilo arquitectónico es una mezcla de gótico, barroco, plateresco y neoclásico.</p>
-                    <img src="Imagenes/A1_1211.webp" alt="Interior de la Catedral Metropolitana de Chihuahua"
-                        class="img-fluid" width="260" height="260">
+                    </div>
+                    <div class="img-fluid " style="align-items: flex-end;">
+                        <img src="Imagenes/YXVBXwyFcOgX.webp" class="img-fluid" width="160" height="160" alt="catedral metropolitana por dentro">
+                    </div>
                 </section>
 
-                <section class="border border-dark mt-4 row" id="actividades">
+                <section class="border border-dark mt-4 row" style="text-align: center;" id="actividades">
                     <h2>Actividades y eventos</h2>
-                    <p class="text-center text-md-start px-3">La Catedral de Chihuahua es un importante centro cultural
+                    <p class="text-center px-3">La Catedral de Chihuahua es un importante centro cultural
                         y religioso, donde se llevan a cabo diversas actividades y eventos a lo largo del año.
                         Entre ellos destacan: Conciertos de música sacra, Misas diarias, Exposiciones de arte religioso,
                         talleres de arte y espiritualidad, y tianguis culturales.</p>
                     <img src="Imagenes/catedral-metropolitana-de-chihuahua-4.webp"
-                        alt="Catedral Metropolitana de Chihuahua con vista al centro" class="img-fluid " width="260"
-                        height="260">
+                        alt="Catedral Metropolitana de Chihuahua con vista al centro" class="img-fluid" width="160"
+                        height="160">
                 </section>
-            </div>
-
 
             <!--Galeria de imagenes-->
-
-            <div id="carouselExampleIndicators" class="carousel slide">
+            <div id="carouselExampleIndicators" class="carousel slide" style="align-items: center;" >
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                         class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -109,18 +112,34 @@
                         aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                    
                 </div>
-                <div class="carousel-inner">
+                <div class="carousel-inner mt-4" style="width: 200px; height: 200px; object-fit: cover; margin: 0 auto;">
                     <div class="carousel-item active">
-                        <img src="Imagenes/catedral-metropolitana-de-chihuahua-4.webp" class="d-block w-100" width="260"
-                            height="260" alt="...">
+                        <img src="Imagenes/catedral-metropolitana-de-chihuahua-4.webp"alt="Catedral con vista amplia" class="d-block img-carrusel" style="width: 200px; height: 200px; object-fit: cover;">
                     </div>
                     <div class="carousel-item">
-                        <img src="Imagenes/catedral_de_chihuahua_5725233097.webp" class="d-block w-100" width="260"
-                            height="260" alt="...">
+                        <img src="Imagenes/catedral_de_chihuahua_5725233097.webp"alt="Catedral de Chihuahua" class="d-block img-carrusel" style="width: 200px; height: 200px; object-fit: cover;">
                     </div>
                     <div class="carousel-item">
-                        <img src="Imagenes/A1_1211.webp" class="d-block w-100" width="260" height="260" alt="...">
+                        <img src="Imagenes/A1_1211.webp" alt="Catedral de noche y luces" class="d-block img-carrusel" style="width: 200px; height: 200px; object-fit: cover;">
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="Imagenes/catedral_chihuahua.webp" alt="Catedral de Chihuahua de frente" class="d-block img-carrusel" style="width: 200px; height: 200px; object-fit: cover;">
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="Imagenes/Historia-de-la-Catedral-de-Chihuahua-1.webp" alt="catedral de chihuahua con al rededor del centro" class="d-block img-carrusel" style="width: 200px; height: 200px; object-fit: cover;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Imagenes/YXVBXwyFcOgX.webp" alt="catedral metropolitana por dentro" class="d-block img-carrusel" style="width: 200px; height: 200px; object-fit: cover;">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -135,11 +154,10 @@
                 </button>
             </div>
 
-
             <!-- Parte final del codigo -->
-            <div class="container border border-dark row"
-                style="text-align: center; background-color: rgba(235, 255, 124, 0.8);" id="mas-informacion">Mas
-                informacion
+            <div class="footer border border-dark row mt-4"
+                style="text-align: center; background-color: rgba(235, 255, 124, 0.8);" id="mas-informacion">
+                <h4>Mas informacion</h4>
                 <div class="row align-items-center">
 
                     <div class="col-4">
